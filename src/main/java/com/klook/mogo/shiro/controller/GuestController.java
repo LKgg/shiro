@@ -25,6 +25,6 @@ public class GuestController {
 
     @GetMapping("/welcome")
     public ResultMap login() {
-        return resultMap.success().code(200).message("欢迎访问游客页面！！");
+        return resultMap.success().code(200).message("欢迎访问游客页面！！！");
     }
 }
